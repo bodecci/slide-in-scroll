@@ -18,7 +18,7 @@ const sliderImages = document.querySelectorAll('slide-in');
 function checkSlide (e) {
     sliderImages.forEach(slideImage => {
         const slideInAt = (window.scrollY + window.innerHeight);
-        console.log(slideInAt);
+        console.log(slideInAt)
         
     });
     
